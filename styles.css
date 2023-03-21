@@ -1,0 +1,33 @@
+.card {
+    margin-top: 20px;
+    justify-content: center;
+      
+}
+  
+  .card + .card {
+    margin-top: 20px;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+#image{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+#big-cont{
+    flex-direction: column;
+}
+#search-bar-container{
+    width: 400px;
+}
+#temp-container{
+    flex-direction: row;
+    text-align: center;
+
+}
